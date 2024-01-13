@@ -9,7 +9,7 @@
         .image-container {
             position: relative;
             text-align: center;
-            color: white;
+            color: green;
         }
 
         /* Styling for the text on the image */
