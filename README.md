@@ -12,7 +12,7 @@ ader<!DOCTYPE html>
             align-items: left;
             background-color: #333;
             padding: 10px;
-            color: black;
+            color: grey;
         }
 
         ul {
@@ -39,7 +39,7 @@ ader<!DOCTYPE html>
     <header>
         <div class="image-container">
             <img src="header.jpg" alt="Header Image">
-            <p class="Це якійсь піпец!!!">Text on Image</p>
+            <p class="text-on-image">Це якійсь піпец!!!</p>
         </div>
         <h1>This is the Header</h1>
 
