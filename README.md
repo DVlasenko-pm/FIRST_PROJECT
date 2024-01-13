@@ -3,47 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpage with Menu</title>
+    <title>Webpage with Dropdown Menu</title>
     <style>
-        /* Optional styling for the container */
-        .image-container {
-            position: relative;
-            text-align: center;
-            color: green;
-        }
-
-        /* Styling for the text on the image */
-        .text-on-image {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 24px;
-            /* Add any other styling as needed */
-        }
-
-        /* Styling for the menu */
+        /* Optional styling for the dropdown menu */
         nav {
-            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             background-color: #333;
-            padding: 10px 0;
+            padding: 10px;
+            color: black;
         }
 
-        nav ul {
+        ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
+            display: none; /* Hide the dropdown menu by default */
+            position: absolute;
+            background-color: #333;
         }
 
-        nav li {
-            display: inline;
-            margin: 0 10px;
+        ul li {
+            padding: 10px;
+            text-align: center;
         }
 
-        nav a {
-            text-decoration: none;
-            color: white;
-            font-weight: bold;
+        /* Style for dropdown trigger */
+        nav:hover ul {
+            display: block; /* Show the dropdown menu on hover */
         }
     </style>
 </head>
@@ -54,13 +42,13 @@
             <p class="text-on-image">Text on Image</p>
         </div>
         <h1>This is the Header</h1>
-        
-        <!-- Menu with 3 items -->
+
+        <!-- Dropdown menu -->
         <nav>
             <ul>
-                <li><a href="#">Menu Item 1</a></li>
-                <li><a href="#">Menu Item 2</a></li>
-                <li><a href="#">Menu Item 3</a></li>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
             </ul>
         </nav>
     </header>
