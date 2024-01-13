@@ -2,7 +2,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Webpage 1</title>
+    <title>Webpage with Text on Image</title>
+    <style>
+        /* Optional styling for the container */
+        .image-container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        /* Styling for the text on the image */
+        .text-on-image {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            /* Add any other styling as needed */
+        }
+    </style>
 </head>
 <body>
     <header>
