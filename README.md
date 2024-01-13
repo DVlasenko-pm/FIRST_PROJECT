@@ -6,6 +6,7 @@
 </head>
 <body>
     <header>
+        <img src="header.jpg" alt="Header Image">
         <h1>This is the Header</h1>
     </header>
 
