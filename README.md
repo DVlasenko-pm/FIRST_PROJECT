@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ader<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
         nav {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: left;
             background-color: #333;
             padding: 10px;
             color: black;
@@ -38,17 +38,17 @@
 <body>
     <header>
         <div class="image-container">
-            <img src="path/to/your/image.jpg" alt="Header Image">
-            <p class="text-on-image">Text on Image</p>
+            <img src="header.jpg" alt="Header Image">
+            <p class="Це якійсь піпец!!!">Text on Image</p>
         </div>
         <h1>This is the Header</h1>
 
         <!-- Dropdown menu -->
         <nav>
             <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
+                <li>у лісі</li>
+                <li>на лузі</li>
+                <li>у попі</li>
             </ul>
         </nav>
     </header>
